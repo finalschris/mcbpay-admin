@@ -105,7 +105,7 @@
                                                         <select name="role" class="form-control form-filter input-sm">
                                                             <option value="">Select...</option>
                                                             <option value="admin">Admin</option>
-                                                            <option value="editor">Editor</option>
+                                                            <option value="corporate">Corporate</option>
                                                         </select>
                                                     </td>
                                                     <td>

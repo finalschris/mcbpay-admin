@@ -53,7 +53,7 @@ class Accounts extends MY_Controller {
         );
 
         $role_list = array(
-          array("warning" => "Editor"),
+          array("warning" => "Corporate"),
           array("info" => "Admin"),
         );
 

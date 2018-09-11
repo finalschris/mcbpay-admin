@@ -14,7 +14,7 @@
                                     <!-- SIDEBAR USER TITLE -->
                                     <div class="profile-usertitle">
                                         <div class="profile-usertitle-name"> <?=humanize($user_info->firstname ." ". $user_info->middlename ." ". $user_info->lastname );?> </div>
-                                        <div class="profile-usertitle-job">Role: <?=($user_info->admin)? "Administrator" :"Editor";?> </div>
+                                        <div class="profile-usertitle-job">Role: <?=($user_info->admin)? "Administrator" :"Corporate";?> </div>
                                         <div class="profile-usertitle-job">Username: <?=$user_info->username;?> </div>
                                         <div class="profile-usertitle-job">Title: <?=$user_info->title;?> </div>
                                         <div class="profile-usertitle-job">Status: <span class="font-<?php if($user_info->status == "active"){ echo "green"; }elseif($user_info->status == "inactive"){ echo "yellow"; }else{ echo "red"; } ?>" > <?=$user_info->status;?> </span> </div>
