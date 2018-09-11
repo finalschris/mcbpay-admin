@@ -4,7 +4,7 @@ var con = mysql.createConnection({
   host: "localhost",
   user: "root",
   password: "",
-  database: "mcbpay"
+  database: "linktech"
 });
 
 con.query('SELECT * FROM users where status ="active" ',function(err,rows){
